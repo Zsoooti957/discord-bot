@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("MTU2NjA4NDk2NDgwODc4NTk4MQ.GO32cV.7CgaOmVGL3i-LSXJqcYjxE2d3JYUyfAkF5AjRQ")
 bot = commands.Bot(
     command_prefix="!",
     intents=intents,
@@ -290,4 +290,4 @@ class CreateTicketView(View):
             color=discord.Color.blue()
         )
         await ticket_channel.send(embed=embed, view=CloseTicketView())
-bot.run("DISCORD_TOKEN")
+bot.run("MTU2NjA4NDk2NDgwODc4NTk4MQ.GO32cV.7CgaOmVGL3i-LSXJqcYjxE2d3JYUyfAkF5AjRQ")
